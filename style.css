@@ -1,0 +1,64 @@
+/*
+Theme Name: zBoom Music Wordpress Theme
+Theme URI: http://www.alorchokh.com/
+Author: Iman Ali
+Author URI: http://www.alorchokh.com/
+Version: 5.0
+Description: Last Update 05/05/2018
+Tag: Music, Songs, Movie
+Text Domain: zboom
+*/
+*{margin:0; padding:0;}
+.protfolio_menu {
+  margin: 25px 0;
+  text-align: center;
+}
+.protfolio_menu > ul {
+  list-style: outside none none;
+  margin: 0;
+  padding: 0;
+}
+#product > li {
+  background: #ccc none repeat scroll 0 0;
+  border-radius: 5px;
+  color: #000;
+  cursor: pointer;
+  display: inline;
+  padding: 5px 10px;
+  text-align: center;
+}
+.single_protfolio {
+background: #858585 none repeat scroll 0 0;
+float: left;
+height: 300px;
+text-align: center;
+width: 300px;
+}
+
+.protfolio_activ .mix{display:none;}
+
+/*Google Map Css*/
+.container .mix {
+  background: gray none repeat scroll 0 0;
+  float: left;
+  height: 182px;
+  margin: 5px;
+  width: 182px;
+}
+.one_half {
+  float: left;
+  padding: 20px 0;
+  width: 50%;
+}
+
+.block01 h2{font-size:23px;line-height:30px;font-weight:normal;text-transform: uppercase;text-align: center;}
+
+.block01 h2:hover {
+    color: #111213;
+    text-transform: uppercase;
+    margin-left: 5px;
+    transition: 0.3s;
+}
+
+
+

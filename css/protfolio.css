@@ -1,0 +1,82 @@
+
+.protfolio_action {
+  list-style: outside none none;
+  margin: 0 0 50px;
+  padding: 0;
+  text-align: center;
+}
+.filter {
+  border: 1px solid #d2d2d2;
+  border-radius: 5px;
+  color: #666666;
+  cursor: pointer;
+  display: inline;
+  padding: 7px;
+  text-transform: capitalize;
+}
+.protfolio_action .filter:hover{color:red;}
+.protfolio_action .filter.active{color:green;}
+.protfolio_item {
+  list-style: outside none none;
+  margin: 0;
+  padding: 0;
+}
+
+.protfolio_item .mix img {
+}
+#protfolio_contents .mix{display:none;}
+
+@media all and (min-width: 420px){
+
+}
+
+@media all and (min-width: 640px){
+
+}
+.protfolio_item .mix {transition: background 0.5s ease-in-out .5s , padding 0.5s ease-in-out;
+  position: relative;
+}
+.work_overlay {transition: background 0.5s ease-in-out .5s , padding 0.5s ease-in-out;
+  background: #ffcc33 none repeat scroll 0 0;
+  height: 100%;
+  left: 0;
+  opacity: 0.8;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  border: 10px solid #ccc;
+}
+.work_overlay{display:none;}
+.work_hover_title {
+  height: 100%;
+  left: 0;
+  padding-top: 50px;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 100%;
+  z-index: 600;
+}
+.work_hover_title a i {
+  border: 2px solid #ffffff;
+  border-radius: 90px;
+  color: #ffffff;
+  font-weight: 700;
+  padding: 10px;
+}
+.work_hover_title > h3 {
+  font-family: "lato";
+  text-transform: uppercase;
+}
+.work_hover_title > a {
+  margin: 15px 6px;
+}
+.work_hover_title p{}
+.protfolio_item .mix:hover .work_overlay{transition: background 0.5s ease-in-out .5s , padding 0.5s ease-in-out; display:block;}
+
+
+
+
+
+
+
